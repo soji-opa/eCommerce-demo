@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import {ProductConsumer} from '../../context';
 import {Link} from 'react-router-dom';
+import PayPalButton from './PayPalButton';
+
 export default class CartTotals extends Component {
+    
+
     render() {
         
         return (
@@ -11,7 +15,7 @@ export default class CartTotals extends Component {
                     return(
                         <React.Fragment>
                             <div class="container">
-                                <div class="row">
+                                <div className="row">
                                     <div className="col-10 mt-3 ml-sm-5 
                                     ml-md-auto col-sm-8 text-capitalize text-right">
                                     <Link to="/" className="btn
@@ -33,6 +37,8 @@ export default class CartTotals extends Component {
                                     <span className="text__title"> total : </span>
                                     <strong>$ {cartTotal}</strong>
                                     </h5>
+
+                                    <PayPalButton total={cartTotal} clearCart={clearCart} history ={this.props.history}/>
                                     </div>
                                 </div>
                             </div>

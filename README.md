@@ -1,15 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-eCommerce-Store
 
-## About
+### **Introduction**
 
 This project was meant to help me understand the nitty gritty involved in building an eCommerce platform.<br/>
 
-[] I learned about context APIs, provider and consumer <br/>
-[] Managing data in context APIs using propTypes. <br/>
-[] Working with Modals. <br/>
-[] Solidifying my understanding of SASS/SCSS, utilizing mixins & variables. <br/>
-[] Integrating paypal sandbox with my project. <br/>
-[] Deeploying project to Netlify.
+- I learned about context APIs, provider and consumer <br/>
+- Managing data in context APIs using propTypes. <br/>
+- Working with Modals. <br/>
+- Solidifying my understanding of SASS/SCSS, utilizing mixins & variables. <br/>
+- Integrating paypal sandbox with my project. <br/>
+- Deeploying project to Netlify.
 
 
 ## Available Scripts

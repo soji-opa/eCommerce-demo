@@ -7,6 +7,11 @@ import CartList from './CartList'
 import CartTotals from './CartTotals'
 
 export default class Cart extends Component {
+
+    componentDidMount(){
+        console.log("props", this.props);
+        
+    }
     render() {
         return (
             <section>
@@ -20,7 +25,7 @@ export default class Cart extends Component {
                          <Title name="your" title ="cart"/>
                          <CartColumns/>
                          <CartList/>
-                         <CartTotals />
+                         <CartTotals history={this.props.history}/>
                         </React.Fragment>
                     )
                 }else{

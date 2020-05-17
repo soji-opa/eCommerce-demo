@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import PayPalButton from './PayPalButton';
 
 export default class CartTotals extends Component {
+
     
 
     render() {
@@ -38,7 +39,7 @@ export default class CartTotals extends Component {
                                     <strong>$ {cartTotal}</strong>
                                     </h5>
 
-                                    <PayPalButton total={cartTotal} clearCart={clearCart} history ={this.props.history}/>
+                                    <PayPalButton total={cartTotal} clearCart={clearCart}  history={this.props.history}/>
                                     </div>
                                 </div>
                             </div>

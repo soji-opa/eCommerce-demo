@@ -9,7 +9,7 @@ This project was meant to help me understand the nitty gritty involved in buildi
 - Working with Modals. <br/>
 - Solidifying my understanding of SASS/SCSS, utilizing mixins & variables. <br/>
 - Integrating paypal sandbox with my project. <br/>
-- Deeploying project to Netlify.
+- Deploying project on Netlify.
 
 
 ## Available Scripts

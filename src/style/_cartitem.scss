@@ -1,0 +1,25 @@
+.btn__black{
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 1rem !important;
+    // padding: 0.4rem;
+    color:$main-dark;
+    border-radius: 0 !important;
+    border: 0.15rem solid $main-dark !important;
+
+    &:hover{
+        background: $main-dark !important;
+        color: $main-white !important;
+    }
+}
+
+.big{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.cart__icon{
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: $main-yellow;
+}

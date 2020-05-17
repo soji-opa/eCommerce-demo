@@ -1,0 +1,27 @@
+.modal__container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #modal{
+        background: $main-white;
+    }
+
+    .modal__heading{
+        font-size: 3.3rem;
+        font-weight: 400;
+    }
+}
+.modal__btn{
+    @include btn ($main-blue, $light-blue, $light-blue, $main-white);
+}
+
+.modal__btn2{
+    @include btn ($light-blue, $main-yellow, $main-yellow, $main-blue);
+}

@@ -1,0 +1,35 @@
+$main-blue: #2a2a72;
+$light-blue: #009ffd;
+$main-white: #f3f3f3;
+$main-dark: #232528;
+$main-yellow: #ffa400;
+
+body{
+    font-family: 'Oswald', sans-serif !important ;
+    background: $main-white !important;
+    color: $main-dark !important;
+}
+
+@mixin btn ($color, $hover-background, $border-color, $focus-color){
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 0.05rem solid $border-color;
+    color: $color;
+    border-radius: 0.5rem;
+    padding: 0.2rem, 0.4rem;
+    cursor: pointer;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        background: $hover-background;
+        color: $focus-color;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.text__bright{
+    color: $light-blue
+}

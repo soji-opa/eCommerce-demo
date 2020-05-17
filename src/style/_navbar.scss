@@ -1,0 +1,18 @@
+.nav__btn{
+    @include btn ($light-blue, $light-blue, $light-blue, $main-blue);
+}
+
+.nav{
+    background: $main-blue;
+
+    .nav__link{
+        color: $main-white !important;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        text-decoration: none;
+
+        &:hover{
+            opacity: .7;
+        }
+    }
+}

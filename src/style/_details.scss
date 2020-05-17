@@ -1,0 +1,22 @@
+
+.text__blue{
+    color: $main-blue
+}
+
+.info__text{
+    width: 60%;
+    text-align: justify;
+    font-size: 1.6rem !important;
+}
+
+.details__btn{
+    @include btn ($main-blue, $light-blue, $light-blue, $main-white);
+    width: 150px;
+    height: 40px; 
+}
+
+.cart__btn2{
+    @include btn ($light-blue, $main-yellow, $main-yellow, $main-blue);
+    width: 150px;
+    height: 40px; 
+}
